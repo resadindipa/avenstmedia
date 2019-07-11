@@ -1,0 +1,463 @@
+.main-header-bg{
+    width: 100%;
+    background-color: #ffffff;
+    background-image: url(../img/savanna.jpg);
+    background-position: 90% 80px;
+    background-repeat: no-repeat;
+    background-size: 640px auto;}
+.main-navbar{
+    z-index: 99999;
+    transition-duration: 0.6s;
+    height: 85px;
+    transition: all 0.3s ease-in-out;
+}
+
+.time-to-leave{
+    transition: unset!important;
+}
+
+.main-navbar2{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -85px;
+}
+
+.top-nav-collapse{
+    top: 0;
+    background: white!important;
+    /* animation: myfirst 5s 2; */
+    /* height: 60px!important; */
+}
+
+.aven-navbar{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    height: 85px;
+    display: table;
+}
+
+
+.aven-navbar-posit {
+    display: table-cell;
+    vertical-align: middle;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.aven-navbar-brand{
+    float: left;
+    display: inline-block;
+}
+
+.aven-navbar-brand p{
+    color: #101010!important;
+    font-family: 'AvantGardeBold';
+    font-size: 30px;
+    margin: 0;
+}
+
+.aven-navbar-brand p a{
+    text-decoration: none;
+    color: #101010;
+}
+
+.aven-navbar-items{
+    float: right;
+    padding-top: 6px;
+    max-width: 50%;
+    display: inline-block;
+}
+
+.aven-navbar-item{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.active-navbar-item{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #E60023;
+}
+
+.aven-navbar-item p{
+    margin: 0;
+    color: #484848;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.aven-navbar-item p::after {
+    content: '';
+    display: block;
+    width: 0;
+    
+    height: 2px;
+    background: #E60023;
+    transition: width .6s;
+}
+
+
+
+.aven-navbar-item p:hover::after {
+    width: 100%;
+   
+    /* transition: width .3s; */
+}
+
+
+/* main posit of the page */
+
+.aven-main-posit{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+/* header begins */
+
+.aven-main-header{
+    padding-top: 90px;
+    width: 40%;
+}
+
+.main-header-border{
+    border-bottom: 3px solid #E60023;
+    width: 70px;
+}
+
+.aven-main-header h3{
+    font-size: 50px;
+    font-family: 'AvantGardeBold';
+}
+
+#contact-us{
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+    height: 55px;
+    transition: .5s ease-in-out;
+    margin-top: 30px;
+    font-size:  16px;
+    border: 1.2px solid #E60023;
+    font-family: 'AvantGarde';
+    background: transparent;
+    color: #E60023;
+}
+
+#contact-us:hover{
+    color: #ffffff;
+    background: #E60023;
+}
+
+
+
+.aven-main-services {
+    width: 100%;
+    padding-top: 190px;
+    padding-bottom: 50px;
+}
+
+.service-item-bg{
+
+}
+
+.main-service-item{
+    /* border: 1px solid #e9204f; */
+    cursor: pointer;
+    position: relative;
+    max-width: 385px;
+    width: 31.83%;
+    display: inline-block;
+    box-shadow: 0 0 30px -15px rgba(0,0,0,0.3);
+    height: 360px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.service-item-bg{
+    height: 300px;
+    background: #E60023;
+}
+
+.main-service-item-active{
+    background: #E60023;
+    box-shadow: none;
+}
+
+.main-item-posit{
+    width: 84%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.main-item-img img{
+    width: 50px;
+}
+
+.main-service-item-active .main-item-header h4 {
+    color: white!important;
+    /* font-family: 'AvantGardeBold'; */
+    /* font-weight: normal; */
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.main-service-item-active .main-item-header-line{
+    width: 80px;
+    border-bottom: 2px solid white!important;
+    padding-top: 20px;
+}
+
+.main-service-item-active .main-item-desc p{
+    color: white!important;
+    font-family: 'TradeGothic';
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.main-service-item .main-item-header h4 {
+    color: #484848;
+    /* font-family: 'AvantGardeBold'; */
+    /* font-weight: normal; */
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.main-service-item .main-item-header-line{
+    width: 80px;
+    border-bottom: 2px solid #E60023;
+    padding-top: 20px;
+}
+
+.main-service-item .main-item-desc p{
+    color: #484848;
+    font-family: 'TradeGothic';
+    line-height: 25px;
+    font-size: 18px;
+}
+
+
+.col-lg-4.col-md-6.col-sm-6.col-xs-12.service-slice-item {   
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.col-lg-4.col-md-6.col-sm-6.col-xs-12.service-slice-item .service-slice-item-posit{
+    width: 90%;
+    margin: auto;
+    height: 80px;
+    position: absolute;
+    overflow: hidden;
+    top: 5px;
+    border-radius: 4px;
+    background: #efefef;
+}
+
+.col-lg-4.col-md-6.col-sm-6.col-xs-12.service-slice-item .service-slice-item-posit p a{
+    text-decoration: none;
+    color: #484848;
+    transition-duration: 0.4s;
+}
+
+
+.service-slice-items{
+    padding-top: 60px;
+}
+
+.service-item-posit-bg {
+    background-size: 55px!important;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    bottom: 0px;
+    background-repeat: no-repeat!important;
+    height: 100%;
+    left: -10px;
+    background-position: bottom right!important;
+}
+
+.service-slice-item-posit:hover > .service-item-img{
+    width: 90px!important;
+    bottom: -5px;
+}
+
+.service-slice-item-posit:hover > .col-lg-4.col-md-6.col-sm-6.col-xs-12.service-slice-item .service-slice-item-posit p a{
+    color: #101010;
+}
+
+.service-item-img{
+    transition-duration: 0.4s;
+    width: 70px;
+    position: absolute;
+    bottom: -15px;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    right: 5px;
+}
+
+.service-slice-item-posit p{
+    font-family: 'AvantGarde';
+    font-weight: normal;
+    padding-left: 20px;
+    padding-top: 23px;
+    font-size: 20px;
+    color: #484848;
+}
+
+
+/* contact us div */
+#contact-us-main{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    z-index: 99999;
+    transition: all 0.7s ease-in-out;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+
+}
+
+.contact-us-div-posit{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.contact-us-header{
+    padding-top: 60px;
+}
+
+.contact-us-header h3 {
+    color: #484848;
+      font-family: 'AvantGardeBold';
+      letter-spacing: 0.2px;
+    font-size: 35px;
+    display: inline-block;
+    width: fit-content;
+}
+
+div#contact-us-close {
+    width: fit-content;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+
+#contact-us-close span {
+    font-size: 35px;
+    color: #767676;
+}
+
+button#submitbtn {
+    width: 170px;
+    margin-top: 20px;
+    height: 43px;
+    background: #E60023;
+    border: 1px solid #E60023;
+    transition-duration: 0.3s;
+    color: white;
+    border-radius: 4px;
+}
+
+#submitbtn:hover{
+    color: #E60023;
+    background: white;
+}
+
+.contact-us-form-item label{
+    display: block;
+    color: #767676;
+
+}
+
+.contact-us-form{
+    padding-top: 30px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    /* border-right: 1px solid #76767696; */
+}
+
+/* .contact-us-details{
+    padding-top: 30px;
+    width: 50%;
+    display: inline-block;
+    float: right;
+
+} */
+
+.contact-us-form-item input{
+    width: 320px;
+    height: 43px;
+    text-indent: 20px;
+    border-radius: 3px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+
+.contact-us-form-item{
+    margin-bottom: 25px;
+}
+
+.messagebox{
+    text-indent: 20px;
+    width: 320px;
+    border-radius: 3px;
+    outline: none;
+    height: 150px;
+    resize: none;
+    background: #f0f0f0;
+    border: none;
+    display: block;
+}
+
+
+/* medium blog spot */
+.mediumblogspot{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    padding-top: 40px;
+    background-position: 20px;
+}
+
+
+.mediumblogspot h3{
+    color: #101010;
+    font-family: 'AvantGardeBold';
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.mediumblogspot button{
+    width: 190px;
+    height: 45px;
+    background: white;
+    font-size: 14px;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+    color: #101010;
+    border: 1px solid #101010;
+    border-radius: 4px;
+}
+
+
+
+.mediumblogspot button:hover{
+    background: #101010;
+    color: white;
+}
+

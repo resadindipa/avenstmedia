@@ -1,0 +1,37 @@
+@font-face {
+    font-family: AvantGarde;
+    src: url(d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf);
+}
+
+@font-face {
+    font-family: AvantGardeBold;
+    src: url(AvantGarde-Bold.woff2);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(Roboto-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: TradeGothicBold;
+    src: url(tradegothic-bold.woff2);
+}
+@font-face {
+    font-family: TradeGothic;
+    src: url(tradegothic.woff2);
+}
