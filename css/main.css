@@ -461,3 +461,75 @@ button#submitbtn {
     color: white;
 }
 
+/* we are social too */
+.wearesocial{
+    width: 100%;
+    height: 350px;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    margin-bottom: 60px;
+}
+
+.wearesocial2{
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0,0,0,0.3); */
+    padding: 10px;
+    padding-top: 26px;
+    border-radius: 6px;
+}
+
+.wearesocial-posit{
+    width: 90%;
+    margin: auto;
+}
+
+.wearesocial-posit h3{
+    color: black;
+    font-family: 'AvantGardeBold';
+    font-size: 27px;
+}
+
+.wearesocial-posit p{
+    
+}
+
+.contact-us-form-item p{
+display: none;
+}
+
+.error-input{
+    border-color: rgb(252, 100, 45) !important;
+}
+
+/* client section */
+.clients{
+    width: 100%;
+}
+
+
+.clients h3{
+    color: #101010;
+    font-family: 'AvantGardeBold';
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.client-work{
+    width: 100%;
+
+}
+
+.client-item{
+    position: relative;
+    width: 45%;
+    height: 300px;
+    margin-right: 3%;
+    background: blue;
+
+}
+
+.client-item:nth-of-type(2){
+}
