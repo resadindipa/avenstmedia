@@ -1,6 +1,6 @@
 .main-header-bg{
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fefefe;
     background-image: url(../img/savanna.jpg);
     background-position: 90% 80px;
     background-repeat: no-repeat;
@@ -12,6 +12,18 @@
     transition: all 0.3s ease-in-out;
 }
 
+
+/* .mainbg{
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    background: url(../img/savanna.png);
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+} */
 .time-to-leave{
     transition: unset!important;
 }
@@ -67,7 +79,7 @@
 .aven-navbar-items{
     float: right;
     padding-top: 6px;
-    max-width: 50%;
+    max-width: 60%;
     display: inline-block;
 }
 
@@ -126,6 +138,25 @@
 .main-header-border{
     border-bottom: 3px solid #E60023;
     width: 70px;
+    margin-bottom: 15px;
+}
+
+#contactus,#contactus2{
+    width: 130px;
+    height: 34px;
+    background: #E60023;
+    font-size: 14px;
+    color: white;
+    font-family: 'AvantGarde';
+    font-weight: normal;
+    border-radius: 500px;
+    border: 1px solid #E60023;
+    transition-duration: 0.4s;
+}
+
+#contactus:hover,#contactus2:hover{
+    background: white;
+    color: #E60023;
 }
 
 .aven-main-header h3{
@@ -254,7 +285,7 @@
     overflow: hidden;
     top: 5px;
     border-radius: 4px;
-    background: #efefef;
+    background: #f8f8f8;
 }
 
 .col-lg-4.col-md-6.col-sm-6.col-xs-12.service-slice-item .service-slice-item-posit p a{
@@ -428,46 +459,74 @@ button#submitbtn {
 /* medium blog spot */
 .mediumblogspot{
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-radius: 5px;
-    padding-top: 40px;
-    background-position: 20px;
+    background: url(../img/roadtrip.jpg);
+    background-size: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position-x: center;
+    background-position-y: center;
 }
 
+.mediumblogspot2{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    padding-top: 40px;
+    border-radius: 5px;
+}
+
+.mediumblogspot-posit{
+    width: 90%;
+    margin: auto;
+}
 
 .mediumblogspot h3{
-    color: #101010;
+    color: white;
     font-family: 'AvantGardeBold';
     font-size: 32px;
     margin-top: 15px;
 }
 
+.mediumblogspot p{
+    color: white;
+}
+
+
 .mediumblogspot button{
     width: 190px;
     height: 45px;
-    background: white;
+    /* background: white; */
     font-size: 14px;
     margin-top: 30px;
     transition-duration: 0.4s;
-    color: #101010;
-    border: 1px solid #101010;
+    /* color: #101010; */
     border-radius: 4px;
+    background: white;
+    border: none;
+    color: #484848;
 }
 
 
 
 .mediumblogspot button:hover{
-    background: #101010;
     color: white;
+    background: transparent;
+    border: 1px solid white;
 }
+
 
 /* we are social too */
 .wearesocial{
     width: 100%;
-    height: 350px;
-    background: url(../img/bg.jpg);
-    background-size: cover;
+    padding-top: 30px;
+    height: 460px;
+    background: url(../img/bg.png);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
     border-radius: 6px;
     margin-bottom: 60px;
 }
@@ -481,19 +540,16 @@ button#submitbtn {
     border-radius: 6px;
 }
 
-.wearesocial-posit{
-    width: 90%;
-    margin: auto;
-}
 
 .wearesocial-posit h3{
     color: black;
     font-family: 'AvantGardeBold';
-    font-size: 27px;
+    font-size: 31px;
+    text-align: right;
 }
 
 .wearesocial-posit p{
-    
+    text-align: right;
 }
 
 .contact-us-form-item p{
